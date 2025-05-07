@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gPRC_Server", "gPRC_Server\gPRC_Server.csproj", "{033E765F-1153-4505-8A47-4BA0E2371E46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gPRC_Client", "gPRC_Client\gPRC_Client.csproj", "{F505C57B-99E3-422A-879A-B08A77CC075A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{033E765F-1153-4505-8A47-4BA0E2371E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{033E765F-1153-4505-8A47-4BA0E2371E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{033E765F-1153-4505-8A47-4BA0E2371E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F505C57B-99E3-422A-879A-B08A77CC075A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F505C57B-99E3-422A-879A-B08A77CC075A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F505C57B-99E3-422A-879A-B08A77CC075A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F505C57B-99E3-422A-879A-B08A77CC075A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
