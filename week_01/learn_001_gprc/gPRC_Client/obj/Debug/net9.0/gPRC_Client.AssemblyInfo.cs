@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gPRC_Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ff5b6850250d29fca13b39d629bcb43658891e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fef69f118dd95d32dcf6629c5558439647fb7ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("gPRC_Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gPRC_Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
