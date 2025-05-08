@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC_Client";
+
+package product;
+
+// Even though this is obviously a service, do not ever name it xService, because it will not work well with the servicefile
+// that goes together with these service responses, use xHandler or xContract instead.
+service ProductHandler {
+  rpc GetProducts (GetProductsRequest) returns (GetProductsReply);
+}
+
+message GetProductsRequest {
+
+}
+
+message Product {
+  int32 id = 1;
+  string name = 2;
+  double price = 3;
+}
+
+message GetProductsReply {
+  repeated Product products = 1;
+}

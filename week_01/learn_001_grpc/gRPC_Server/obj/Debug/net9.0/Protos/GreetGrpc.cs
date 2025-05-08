@@ -52,6 +52,10 @@ namespace gRPC_Server {
     static readonly grpc::Marshaller<global::gRPC_Server.HelloRequest> __Marshaller_greet_HelloRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.HelloRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::gRPC_Server.HelloReply> __Marshaller_greet_HelloReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.HelloReply.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::gRPC_Server.FullNameRequest> __Marshaller_greet_FullNameRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.FullNameRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::gRPC_Server.FullNameReply> __Marshaller_greet_FullNameReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.FullNameReply.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::gRPC_Server.HelloRequest, global::gRPC_Server.HelloReply> __Method_SayHello = new grpc::Method<global::gRPC_Server.HelloRequest, global::gRPC_Server.HelloReply>(
@@ -60,6 +64,14 @@ namespace gRPC_Server {
         "SayHello",
         __Marshaller_greet_HelloRequest,
         __Marshaller_greet_HelloReply);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::gRPC_Server.FullNameRequest, global::gRPC_Server.FullNameReply> __Method_GetFullName = new grpc::Method<global::gRPC_Server.FullNameRequest, global::gRPC_Server.FullNameReply>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetFullName",
+        __Marshaller_greet_FullNameRequest,
+        __Marshaller_greet_FullNameReply);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -83,6 +95,12 @@ namespace gRPC_Server {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.FullNameReply> GetFullName(global::gRPC_Server.FullNameRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -91,7 +109,8 @@ namespace gRPC_Server {
     public static grpc::ServerServiceDefinition BindService(GreeterBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_SayHello, serviceImpl.SayHello).Build();
+          .AddMethod(__Method_SayHello, serviceImpl.SayHello)
+          .AddMethod(__Method_GetFullName, serviceImpl.GetFullName).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -102,6 +121,7 @@ namespace gRPC_Server {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, GreeterBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_SayHello, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.HelloRequest, global::gRPC_Server.HelloReply>(serviceImpl.SayHello));
+      serviceBinder.AddMethod(__Method_GetFullName, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.FullNameRequest, global::gRPC_Server.FullNameReply>(serviceImpl.GetFullName));
     }
 
   }
