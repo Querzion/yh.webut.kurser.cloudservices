@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "LocalIdentityAuthService";
+
+service IdentityServiceContract {
+  rpc Register (RegisterRequest) returns (RegisterReply);
+  rpc GetUserByEmail (UserByEmailRequest) returns (UserReply);
+  rpc GetUserById (UserByIdRequest) returns (UserReply);
+}
+
+message RegisterRequest {
+  string email = 1;
+  string password = 2;
+}
+
+message RegisterReply {
+  bool succeeded = 1;
+  string message = 2;
+}
+
+message UserByEmailRequest {
+  string email = 1;
+}
+
+message UserByIdRequest {
+  string userId = 1;
+}
+
+message UserReply {
+  string id = 1;
+  string email = 2;
+}
