@@ -4,7 +4,7 @@ namespace Server.Services;
 
 public class NameService : INameService
 {
-    private readonly List<string> _names = [];
+    private static readonly List<string> _names = [];
     
     public void AddName(string name)
     {
