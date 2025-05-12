@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/fG5YkZTfzbhBRTHYeYGrnL/fQIa4AWSOjgyMbNBiso=",
+  "Source": "NotificationService.gRPC",
+  "BasePath": "_content/NotificationService.gRPC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

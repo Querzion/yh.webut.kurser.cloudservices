@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "ActivityService";
+
+service NotificationServiceContract {
+  rpc Notification (NotificationRequest) returns (NotificationReply);
+}
+
+message NotificationRequest {
+  string email = 1;
+  string password = 2;
+}
+
+message NotificationReply {
+  bool succeeded = 1;
+  string message = 2;
+}

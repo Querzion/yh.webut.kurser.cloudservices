@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "44bTXCGhnd8AccR75dKehVrvcr2Zelhtv2iypb1INgM=",
+  "Source": "ActivityService",
+  "BasePath": "_content/ActivityService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
