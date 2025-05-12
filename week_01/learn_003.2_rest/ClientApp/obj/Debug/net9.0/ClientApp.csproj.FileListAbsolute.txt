@@ -1,0 +1,15 @@
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/bin/Debug/net9.0/ClientApp
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/bin/Debug/net9.0/ClientApp.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/bin/Debug/net9.0/ClientApp.runtimeconfig.json
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/bin/Debug/net9.0/ClientApp.dll
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/bin/Debug/net9.0/ClientApp.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.dll
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/refint/ClientApp.dll
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ClientApp.genruntimeconfig.cache
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003.2_rest/ClientApp/obj/Debug/net9.0/ref/ClientApp.dll

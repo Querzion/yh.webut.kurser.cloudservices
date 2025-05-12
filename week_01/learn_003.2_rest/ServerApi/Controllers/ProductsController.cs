@@ -14,7 +14,7 @@ public class ProductsController : ControllerBase
     /*
         POST https://localhost:7171/api/Products HTTP/1.1
         Content-Type: application/json
-        Body: { "name" : "Acer Aspire GO 14", "price" : 3999.00 }
+        Body: { "name " : "Acer Aspire GO 14", "price " : 3999.00 }
     */
     [HttpPost]
     public IActionResult Create(ProductRequest req)
