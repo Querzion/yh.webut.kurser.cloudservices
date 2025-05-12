@@ -1,19 +1,28 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <ImplicitUsings>true</ImplicitUsings>
     </PropertyGroup>
-
     <ItemGroup>
-      <ProjectReference Include="..\Contracts\Contracts.csproj" />
+        <Using Include="CoreWCF"/>
+        <Using Include="CoreWCF.Configuration"/>
+        <Using Include="CoreWCF.Channels"/>
+        <Using Include="CoreWCF.Description"/>
+        <Using Include="System.Runtime.Serialization "/>
+        <Using Include="Client"/>
+        <Using Include="Microsoft.Extensions.DependencyInjection.Extensions"/>
     </ItemGroup>
-
+    <ItemGroup>
+        <PackageReference Include="CoreWCF.Primitives" Version="1.*"/>
+        <PackageReference Include="CoreWCF.Http" Version="1.*"/>
+    </ItemGroup>
     <ItemGroup>
       <Content Update="appsettings.Development.json">
         <DependentUpon>appsettings.json</DependentUpon>
       </Content>
     </ItemGroup>
-
+    <ItemGroup>
+      <ProjectReference Include="..\Contracts\Contracts.csproj" />
+    </ItemGroup>
 </Project>
