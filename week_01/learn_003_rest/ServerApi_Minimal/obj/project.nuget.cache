@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "B0H7UUPFh+E=",
+  "success": true,
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_003_rest/ServerApi_Minimal/ServerApi_Minimal.csproj",
+  "expectedPackageFiles": [
+    "/home/querzion/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
