@@ -18,9 +18,11 @@ public class Program
         name = Console.ReadLine();
         CallService("net.tcp://localhost:8090/NameService", new NetTcpBinding(), name!);
         
-        Console.Write("Enter name: ");
-        name = Console.ReadLine();
-        CallService("net.pipe://localhost/NameService", new NetNamedPipeBinding(), name!);
+        // Console.Write("Enter name: ");
+        // name = Console.ReadLine();
+        // CallService("net.pipe://localhost/NameService", new NetNamedPipeBinding(), name!);
+
+        Console.ReadKey();
     }
 
     static void CallService(string address, BasicHttpBinding binding, string name)
