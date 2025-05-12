@@ -1,0 +1,15 @@
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/bin/Debug/net9.0/Contracts.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/bin/Debug/net9.0/Contracts.dll
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/bin/Debug/net9.0/Contracts.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/bin/Debug/net9.0/CoreWCF.Primitives.dll
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.csproj.AssemblyReference.cache
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.csproj.Up2Date
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.dll
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/refint/Contracts.dll
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/Contracts.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.cloudservices/week_01/learn_002_corewcf/Contracts/obj/Debug/net9.0/ref/Contracts.dll
