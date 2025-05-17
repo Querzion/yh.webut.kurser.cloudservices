@@ -73,11 +73,11 @@ public class VerificationService(IConfiguration configuration, EmailClient email
                         </p>
 
                         <div style='display:flex; justify-content:center; align-items:center; padding:16px; background-color:#FCD3FE; color:#1C2346; font-size:24px; margin-bottom:24px; border-radius:8px;'> 
-                            {{verificationCode}}
+                            {verificationCode}
                         </div>
 
                         <div style='text-align:center; margin-bottom:32px;'>
-                            <a href='https://domain.com/verify?email={{request.Email}}&token=' style='background-color:#F26CF9; color:#FFFFFF; padding:12px 24px; border-radius:8px; font-size:16px; font-weight:600;'>
+                            <a href='https://domain.com/verify?email={request.Email}&token=' style='background-color:#F26CF9; color:#FFFFFF; padding:12px 24px; border-radius:8px; font-size:16px; font-weight:600;'>
                                 Open verification page
                             </a>
                         </div>
